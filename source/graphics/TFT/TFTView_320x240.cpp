@@ -7355,9 +7355,8 @@ void TFTView_320x240::task_handler(void)
             if (map) {
                 updateLocationMap(THIS->map->getObjectsOnMap());
             }
-
+            actTime += (curtime - lastrun1);
             lastrun1 = curtime;
-            actTime++;
             updateTime();
 
             if (curtime - lastrun5 >= 5) { // call every 5s
