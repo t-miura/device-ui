@@ -3,6 +3,7 @@
 const Rtttl ringtone[] = {
     {"Silent", "Silent:"},
     {"Default", "24:d=32,o=5,b=565:f6,p,f6,4p,p,f6,p,f6,2p,p,b6,p,b6,p,b6,p,b6,p,b,p,b,p,b,p,b,p,b,p,b,p,b,p,b,1p.,2p.,p,"},
+    {"New Contact", "NewContact:d=16,o=5,b=192:c#,c,b4,a#4"},
     {"Note", "Note:d=16,o=5,b=120:g6,32p,g5"},
     {"Beat", "Beat:d=16,o=4,b=120:c,g,c,g"},
     {"Bulp", "Bulp:d=16,o=4,b=225:c,e,g,c5"},
