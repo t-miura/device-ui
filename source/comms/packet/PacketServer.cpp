@@ -2,7 +2,7 @@
 #include "util/SharedQueue.h"
 #include <assert.h>
 
-const uint32_t max_packet_queue_size = 300;
+const uint32_t max_packet_queue_size = 30; // Lowered from 300, to prevent consume temporary memory too much
 
 SharedQueue *sharedQueue = nullptr;
 
